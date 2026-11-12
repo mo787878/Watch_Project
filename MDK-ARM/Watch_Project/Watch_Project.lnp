@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"watch_project\startup_stm32f411xe.o"
+"watch_project\main.o"
+"watch_project\gpio.o"
+"watch_project\stm32f4xx_it.o"
+"watch_project\stm32f4xx_hal_msp.o"
+"watch_project\stm32f4xx_hal_timebase_tim.o"
+"watch_project\stm32f4xx_hal_tim.o"
+"watch_project\stm32f4xx_hal_tim_ex.o"
+"watch_project\stm32f4xx_hal_rcc.o"
+"watch_project\stm32f4xx_hal_rcc_ex.o"
+"watch_project\stm32f4xx_hal_flash.o"
+"watch_project\stm32f4xx_hal_flash_ex.o"
+"watch_project\stm32f4xx_hal_flash_ramfunc.o"
+"watch_project\stm32f4xx_hal_gpio.o"
+"watch_project\stm32f4xx_hal_dma_ex.o"
+"watch_project\stm32f4xx_hal_dma.o"
+"watch_project\stm32f4xx_hal_pwr.o"
+"watch_project\stm32f4xx_hal_pwr_ex.o"
+"watch_project\stm32f4xx_hal_cortex.o"
+"watch_project\stm32f4xx_hal.o"
+"watch_project\stm32f4xx_hal_exti.o"
+"watch_project\system_stm32f4xx.o"
+--strict --scatter "Watch_Project\Watch_Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Watch_Project.map" -o Watch_Project\Watch_Project.axf
