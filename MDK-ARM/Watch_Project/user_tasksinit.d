@@ -14,4 +14,5 @@ watch_project\user_tasksinit.o: ../Middlewares/Third_Party/FreeRTOS/Source/inclu
 watch_project\user_tasksinit.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 watch_project\user_tasksinit.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 watch_project\user_tasksinit.o: ../User/Tasks/Inc/user_HardwareInitTask.h
+watch_project\user_tasksinit.o: ../User/Tasks/Inc/user_InputTask.h
 watch_project\user_tasksinit.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h

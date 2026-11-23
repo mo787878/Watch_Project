@@ -7,6 +7,8 @@
 
 #include <stdio.h>
 
+static uint16_t dma_test_buf[32 * 32];
+
 void HardwareInitTask(void *argument)
 {
     (void)argument;
@@ -17,18 +19,5 @@ void HardwareInitTask(void *argument)
     LCD_Init();
     printf("LCD init done\r\n");
 
-    for (;;)
-    {
-        LCD_Fill(0, 0, LCD_W, LCD_H, RED);
-        printf("LCD RED\r\n");
-        osDelay(1000);
-
-        LCD_Fill(0, 0, LCD_W, LCD_H, GREEN);
-        printf("LCD GREEN\r\n");
-        osDelay(1000);
-
-        LCD_Fill(0, 0, LCD_W, LCD_H, BLUE);
-        printf("LCD BLUE\r\n");
-        osDelay(1000);
-    }
+    vTaskDelete(NULL);
 }

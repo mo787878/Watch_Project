@@ -1,15 +1,2 @@
-*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil\ARM\ARMCC\Bin'
-Build target 'Watch_Project'
-compiling user_TasksInit.c...
-../User/Tasks/Inc/user_TasksInit.h(9): warning:  #1-D: last line of file ends without a newline
-  #endif
-../User/Tasks/Inc/user_HardwareInitTask.h(6): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\User\Tasks\Src\user_TasksInit.c(25): warning:  #1-D: last line of file ends without a newline
-  }
-..\User\Tasks\Src\user_TasksInit.c: 3 warnings, 0 errors
-linking...
-Program Size: Code=14168 RO-data=572 RW-data=156 ZI-data=19996  
-FromELF: creating hex file...
-"Watch_Project\Watch_Project.axf" - 0 Error(s), 3 Warning(s).
-Build Time Elapsed:  00:00:01
+Load "Watch_Project\\Watch_Project.axf" 
+Erase Done.Programming Done.Verify OK.Flash Load finished at 15:09:02

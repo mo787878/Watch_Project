@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F411xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../User/Tasks/Inc;../System;../BSP/LCD</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../User/Tasks/Inc;../System;../BSP/LCD;../BSP/KEY</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -667,6 +667,16 @@
               <FileType>5</FileType>
               <FilePath>..\User\Tasks\Inc\user_HardwareInitTask.h</FilePath>
             </File>
+            <File>
+              <FileName>user_InputTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Tasks\Src\user_InputTask.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_InputTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\Tasks\Inc\user_InputTask.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -716,6 +726,16 @@
               <FileName>lcdfont.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\LCD\lcdfont.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\KEY\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\KEY\key.h</FilePath>
             </File>
           </Files>
         </Group>
