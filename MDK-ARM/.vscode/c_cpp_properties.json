@@ -8,11 +8,20 @@
                 "f:\\Project\\Watch_Project\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
                 "f:\\Project\\Watch_Project\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
                 "f:\\Project\\Watch_Project\\Drivers\\CMSIS\\Include",
+                "f:\\Project\\Watch_Project\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "f:\\Project\\Watch_Project\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2",
+                "f:\\Project\\Watch_Project\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
+                "f:\\Project\\Watch_Project\\User\\Tasks\\Inc",
+                "f:\\Project\\Watch_Project\\System",
+                "f:\\Project\\Watch_Project\\BSP\\LCD",
                 "D:\\Keil\\ARM\\ARMCC\\include",
                 "D:\\Keil\\ARM\\ARMCC\\include\\rw",
                 "f:\\Project\\Watch_Project\\MDK-ARM",
                 "f:\\Project\\Watch_Project\\Core\\Src",
-                "f:\\Project\\Watch_Project\\Drivers\\STM32F4xx_HAL_Driver\\Src"
+                "f:\\Project\\Watch_Project\\User\\Tasks\\Src",
+                "f:\\Project\\Watch_Project\\Drivers\\STM32F4xx_HAL_Driver\\Src",
+                "f:\\Project\\Watch_Project\\Middlewares\\Third_Party\\FreeRTOS\\Source",
+                "f:\\Project\\Watch_Project\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

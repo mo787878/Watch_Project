@@ -1,0 +1,18 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/Project/Watch_Project/build/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/BasicMathFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/ConcatenationFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/FullyConnectedFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/ConvolutionFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/ActivationFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/PoolingFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/SoftmaxFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/SVDFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/ReshapeFunctions/cmake_install.cmake",
+		"F:/Project/Watch_Project/build/Source/NNSupportFunctions/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
