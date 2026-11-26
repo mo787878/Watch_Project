@@ -45,4 +45,8 @@ watch_project\user_inputtask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 watch_project\user_inputtask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 watch_project\user_inputtask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 watch_project\user_inputtask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+watch_project\user_inputtask.o: ..\BSP\TOUCH\CST816.h
+watch_project\user_inputtask.o: ..\BSP\IIC\iic_hal.h
+watch_project\user_inputtask.o: ../System/delay.h
+watch_project\user_inputtask.o: ../System/sys.h
 watch_project\user_inputtask.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h

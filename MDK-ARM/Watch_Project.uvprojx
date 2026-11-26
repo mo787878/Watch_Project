@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F411xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../User/Tasks/Inc;../System;../BSP/LCD;../BSP/KEY</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../User/Tasks/Inc;../System;../BSP/LCD;../BSP/KEY;..\BSP\IIC;..\BSP\TOUCH</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -736,6 +736,26 @@
               <FileName>key.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\KEY\key.h</FilePath>
+            </File>
+            <File>
+              <FileName>iic_hal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\IIC\iic_hal.c</FilePath>
+            </File>
+            <File>
+              <FileName>iic_hal.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\IIC\iic_hal.h</FilePath>
+            </File>
+            <File>
+              <FileName>CST816.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\TOUCH\CST816.c</FilePath>
+            </File>
+            <File>
+              <FileName>CST816.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\TOUCH\CST816.h</FilePath>
             </File>
           </Files>
         </Group>

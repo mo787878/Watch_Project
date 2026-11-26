@@ -47,4 +47,6 @@ watch_project\user_hardwareinittask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32
 watch_project\user_hardwareinittask.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 watch_project\user_hardwareinittask.o: ../BSP/LCD/lcd.h
 watch_project\user_hardwareinittask.o: ../BSP/LCD/lcd_init.h
+watch_project\user_hardwareinittask.o: ..\BSP\TOUCH\CST816.h
+watch_project\user_hardwareinittask.o: ..\BSP\IIC\iic_hal.h
 watch_project\user_hardwareinittask.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h

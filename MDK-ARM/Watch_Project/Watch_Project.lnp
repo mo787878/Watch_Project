@@ -16,6 +16,8 @@
 "watch_project\lcd.o"
 "watch_project\lcd_init.o"
 "watch_project\key.o"
+"watch_project\iic_hal.o"
+"watch_project\cst816.o"
 "watch_project\stm32f4xx_hal_tim.o"
 "watch_project\stm32f4xx_hal_tim_ex.o"
 "watch_project\stm32f4xx_hal_rcc.o"
